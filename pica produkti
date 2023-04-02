@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace grr
+{
+    internal class Program
+    {
+        
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("vavedete kolko produkta shte ima na picata");
+            int p = int.Parse(Console.ReadLine());
+            List <int> list = new List<int>();
+            for(int i = 0; i < p; i++)
+            {
+                Console.WriteLine("vavedete produkt");
+                string pr=Console.ReadLine();
+                
+            }
+            Console.Write("Produkti:??");
+
+        }
+    }
+}
